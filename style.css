@@ -17,8 +17,18 @@ li{
 }
 @media only screen and (max-width:739px) {
     .text p{
-    font-size: 2.5vw;
+    font-size: 2.1vw;
     }
+    .sale h2{
+        text-align: center;
+    }
+    .caption p{
+        position: absolute;
+        top: 57%;
+        left: 10%;
+        font-size: 16px !important;
+    }
+   
 
 }
 .dropdown:hover .dropdown-menu {
@@ -31,4 +41,39 @@ li{
 .navbar p:hover{
  
     background-color: red;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: white !important;
+}
+.bg{
+    background-color: #194E90;
+}
+.boder{
+    border-radius: 10px 10px 0px 0px
+}
+.item{
+    position: relative;
+    
+}
+.caption{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: #1716167d;
+    height: 100%;
+}
+.caption img{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+.caption p{
+    position: absolute;
+    top: 57%;
+    left: 20%;
+    white-space: nowrap;
 }
