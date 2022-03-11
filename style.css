@@ -9,6 +9,9 @@
     font-family: 'Lobster', cursive;
     color: #E67833;
 }
+.color{
+    color: #E67833;
+}
 .text p{
     font-size: 80%;
 }
@@ -73,4 +76,37 @@ li{
     top: 57%;
     left: 20%;
     white-space: nowrap;
+}
+.myclass {
+    position: relative;
+}
+.myclass::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    top: 10px;
+    left: -25px;
+    background: black;
+}
+.wrapper {
+    background-image: url('./img/footer.png');
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color: #ffff;
+}
+.iconFooter {
+    position: relative;
+}
+.t3h {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+   
+    
 }
